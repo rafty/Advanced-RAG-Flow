@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "advanced-rag-flow"
+version = "0.1.0"
+description = ""
+authors = ["yagita <yagita.takashi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+langchain = "^0.2.14"
+langgraph = "^0.2.12"
+langchainhub = "^0.1.21"
+langchain-community = "^0.2.12"
+tavily-python = "^0.4.0"
+langchain-chroma = "^0.1.3"
+python-dotenv = "^1.0.1"
+black = "^24.8.0"
+isort = "^5.13.2"
+pytest = "^8.3.2"
+setuptools = "^73.0.1"
+langchain-openai = "^0.1.22"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
